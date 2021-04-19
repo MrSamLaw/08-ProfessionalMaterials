@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam Law - Full-Stack Developer</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header id="header" class="flex">
+            <div class="welcome">
+                <div>
+                    "Hello, I am <span class="highlight">Sam Law</span>." <br />
+                    "I'm an aspiring full-stack developer."
+                </div>
+                <form>
+                    <button formaction="#menu">Let's Connect</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <nav class="burger-menu" id="menu">
+                <label for="open-menu"> </label>
+                <input type="checkbox" id="open-menu">
+                <ul class="menu-content">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+            </nav>
+            <header id="portfolio">
+                <h3>Portfolio</h3>
+            </header>
+            <section class="row justify-center portfolio">
+                <div class="card-column">
+                    <a href="https://mrsamlaw.github.io/01-HW-CodeRefactor/" target="_blank">
+                        <figure class="card">
+                            <img src="assets/images/P1-Horiseon.jpg" alt="">
+                            <h2 class="card-header">Horiseon</h2>
+                            <div class="card-body">
+                                <p class="lang">HTML/CSS</p>
+                                <p class="details">Refactored code to SEO standards.</p>
+                            </div>
+                        </figure>
+                    </a>
+                </div>
+                <div class="card-column">
+                    <a href="https://mrsamlaw.github.io/02-HW-ProfessionalPortfolio/">
+                        <figure class="card">
+                            <img src="assets/images/P0-Placeholder.jpg" alt="placeholder image" />
+                            <h2 class="card-header">Professional Portfolio</h2>
+                            <div class="card-body">
+                                <p class="lang">HTML/CSS</p>
+                                <p class="details">My portfolio of development projects</p>
+                            </div>
+
+                        </figure>
+                    </a>
+                </div>
+
+                <div class="card-column">
+                    <figure class="card">
+                        <img src="assets/images/P0-Placeholder.jpg" alt="placeholder image" />
+                        <h2 class="card-header">Password Generator</h2>
+                        <div class="card-body">
+                            <p class="lang">Javascript</p>
+                            <p class="details">Coming Soon!</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card">
+                        <img src="assets/images/P0-Placeholder.jpg" alt="placeholder image" />
+                        <h2 class="card-header">Code Quiz</h2>
+                        <div class="card-body">
+                            <p class="lang">Web APIs</p>
+                            <p class="details">Coming Soon!</p>
+                        </div>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card">
+                        <img src="assets/images/P0-Placeholder.jpg" alt="placeholder image" />
+                        <h2 class="card-header">Day Planner</h2>
+                        <div class="card-body">
+                            <p class="lang">Server-side APIs</p>
+                            <p class="details">Coming Soon!</p>
+                        </div>
+                    </figure>
+                </div>
+
+            </section>
+            <header id="about-me">
+                <h3>About Me</h3>
+            </header>
+            <section class="about-me">
+                <figure>
+                    <img src="assets/images/SamLawProfile.jpg" alt="">
+                </figure>
+                <p>I am an up and coming full-stack developer who embraces the line between the creative and
+                    the technical. Having a great eye for detail and problem solving skills, I
+                    am keen to learn whatever I can, to help the world live with a better internet full of great code,
+                    that enhances user experience through great designs and implementation.
+                </p>
+            </section>
+
+            <header id="contact-me">
+                <h3>Contact Me</h3>
+            </header>
+            <section class="row justify-center contact-form">
+
+                <div class="card-column">
+                    <figure class="card">
+                        <div class="card-body social">
+                            <h4>Online</h4>
+                            <p>Catch me in the following places:</p>
+                            <a href=mailto:sam@emailaddress.com class="icon email" title="Send me an email">Email</a>
+                            <a href=https://github.com/mrsamlaw class="icon github"
+                                title="Follow me on Github">Github</a>
+                            <a href=https://www.linkedin.com/in/mrsamlaw class="icon linkedin"
+                                title="Let's Link Up">LinkedIn</a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="card-column">
+                    <figure class="card contact-form">
+                        <form>
+                            <label>Name</label>
+                            <input type="text" id="name" name="name" placeholder="Samuel L Jackson">
+                            <label>Email:</label>
+                            <input type="email" id="email-address" name="email" placeholder="you@yourdomain.com">
+                            <label>Message</label>
+                            <textarea id="message" name="message" placeholder="How can I help?"></textarea>
+                            <button>Submit</button>
+                        </form>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <p>Simply CSS, Imagination & Inspiration</p>
+        </footer>
+    </div>
+</body>
+
+</html>
