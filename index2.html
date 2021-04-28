@@ -11,7 +11,7 @@
         rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -34,7 +34,7 @@
                     <span class="text-muted">Toggleable via the navbar brand.</span>
                 </div>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
                     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +59,7 @@
 
                 </div>
             </nav>
-            <section>
+            <section class="mb-5">
                 <header id="portfolio">
                     <h2>Portfolio</h2>
                 </header>
@@ -129,7 +129,7 @@
                 </div>
 
             </section>
-            <section>
+            <section class="mb-5">
                 <header id="about">
                     <h2>About Me</h2>
                 </header>
@@ -150,13 +150,94 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="mb-5">
                 <header id="contact">
                     <h2>Contact Me</h2>
                 </header>
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-sm mx-auto">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-primary text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Phone</h4>
+                                                <p class="card-text">Drop me a line to discuss any projects we could
+                                                    collaborate on</p>
+                                                <a href="tel:+61123456789" class="btn btn-primary"><i
+                                                        class="bi bi-telephone-fill"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-inverse card-primary text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">Email</h4>
+                                                <p class="card-text"><strong>sam@chongland.com</strong><br /><br />
+                                                    Send me an email to collaborate</p>
+                                                <a href="mailto:sam@chongland.com?subject=Portfolio Contact"
+                                                    class="btn btn-primary"><i class="bi bi-envelope-fill"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-inverse card-success text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">GitHub</h4>
+                                                <p class="card-text"><strong>GitHub.com/MrSamLaw</strong><br /><br />My
+                                                    GitHub houses
+                                                    some of
+                                                    the projects I've worked on</p>
+                                                <a href="https://github.com/mrsamlaw" target="_blank"
+                                                    class="btn btn-primary"><i class="bi bi-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-sm my-3">
+                                        <div class="card card-invrse card-info text-center p-2">
+                                            <div class="card-block">
+                                                <h4 class="card-title">LinkedIn</h4>
+                                                <p class="card-text">Let's Link Up</p>
+                                                <a href="https://www.linkedin.com/in/mrsamlaw" target="_blank"
+                                                    class="btn btn-primary"><i class="bi bi-linkedin"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-7 col-sm mx-auto">
+                            <figure class="card contact-form">
+                                <form>
+                                    <div class="form-group p-2">
+                                        <label for="nameInput">Name</label>
+                                        <input type="text" class="form-control my-2" id="nameInput" name="name"
+                                            placeholder="Samuel L Jackson">
+                                        <label for="emailInput">Email</label>
+                                        <input type="text" class="form-control my-2" id="emailInput" name="email"
+                                            placeholder="Another input placeholder">
+                                        <label for="messageInput">Message</label>
+                                        <textarea class="form-control" id="messageInput" name="message" rows="3"
+                                            placeholder="How can I help?"></textarea>
+                                        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+                                    </div>
+                                </form>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </div>
+    <footer id="footer">
+        <div class="container-fluid">
+            <p class="text-center">Simply CSS, Imagination & Inspiration</p>
+        </div>
+    </footer>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.js"
         integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
