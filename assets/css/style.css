@@ -47,16 +47,15 @@ header {
     display: flex;
 }
 
-.burger-menu {
-    position:sticky;
+.navbar {    
     top:0;
     min-height:50px;
     background-color: var(--color-288red);
     border-bottom: 3px solid var(--color-288redalpha);
-    z-index:99;
+    /* z-index:99; */
 }
 
-.burger-menu label{
+/* {
     display:block;
     background-image: url(../images/burger.svg);
     background-repeat: none;
@@ -64,7 +63,7 @@ header {
     position: absolute;
     top: 5px;
     right: 5px;
-}
+} */
 .burger-menu input#open-menu {
     display:none;
     padding: 5px;
@@ -142,13 +141,13 @@ form textarea,
 form select {
     appearance:none;
     border:none;
-    border:3px solid var(--color-creamredalpha);
+    border:3px solid var(--color-creamredalpha)!important;
     box-sizing:inherit;
     padding:2rem 1.5rem;
     width:100%;
-    color:var(--color-288red);
+    color:var(--color-288red)!important;
     outline:0;
-    background-color:transparent;
+    background-color:transparent!important;
     transition:.3s border;
     border-radius:3px;
 }

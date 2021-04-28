@@ -15,6 +15,22 @@ const repos = {
         URL: "https://mrsamlaw.github.io/06-WeatherDashboard/",
         screenshot: "./assets/images/WeatherDashboard.png",
     },
+    3: {
+        title: "Harder Better Faster Stronger - Work Day Planner",
+        description: "A way to efficiently manage your work time - an app to plan out your work day hour by hour",
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", "Moment JS"],
+        repo: "https://github.com/MrSamLaw/WorkDayPlanner",
+        URL: "https://mrsamlaw.github.io/WorkDayPlanner/",
+        screenshot: "./assets/images/DayPlanner.png",
+    },
+    4: {
+        title: "Password Generator",
+        description: "An application that enables employees to generate random passwords based on criteria that they’ve selected",
+        tech: ["HTML", "CSS", "JavaScript"],
+        repo: "https://github.com/MrSamLaw/PWGenerator",
+        URL: "https://mrsamlaw.github.io/PWGenerator/",
+        screenshot: "./assets/images/PWGen.png",
+    },
 }
 
 let printRepos = (repo) => {
