@@ -2,7 +2,7 @@ const repos = {
     1: {
         title: "ANZAC Bubble Travel App",
         description: "A dynamic, user friendly, and convenient travel and accomodation finder for Australians that are keen to visit our New Zealand neighbours!",
-        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", "Moment JS", "APIs"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Moment JS", "APIs"],
         repo: "https://github.com/MrSamLaw/07-ANZAC-Bubble-Travel-App",
         URL: "https://mrsamlaw.github.io/07-ANZAC-Bubble-Travel-App/",
         screenshot: "./assets/images/ANZ-Travel-Bubble-Landing.png",
@@ -10,7 +10,7 @@ const repos = {
     2: {
         title: "Everyweather You Go! - Weather Dashboard",
         description: "A weather dashboard that uses API calls to determine the weather of a city",
-        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", "Moment JS", "API"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Moment JS", "API"],
         repo: "https://github.com/MrSamLaw/06-WeatherDashboard",
         URL: "https://mrsamlaw.github.io/06-WeatherDashboard/",
         screenshot: "./assets/images/WeatherDashboard.png",
@@ -18,7 +18,7 @@ const repos = {
     3: {
         title: "Harder Better Faster Stronger - Work Day Planner",
         description: "A way to efficiently manage your work time - an app to plan out your work day hour by hour",
-        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "JQuery", "Moment JS"],
+        tech: ["HTML", "CSS", "JavaScript", "Bootstrap", "jQuery", "Moment JS"],
         repo: "https://github.com/MrSamLaw/WorkDayPlanner",
         URL: "https://mrsamlaw.github.io/WorkDayPlanner/",
         screenshot: "./assets/images/DayPlanner.png",
