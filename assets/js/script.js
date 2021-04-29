@@ -35,7 +35,7 @@ const repos = {
 
 let printRepos = (repo) => {
     for (const key in repo) {
-        // let techString = repo[key].tech = repo[key].tech.join(" | ");
+        let techString = repo[key].tech.join(" | ");
         var repoCard = document.createElement("div");
         repoCard.innerHTML = [
             `<div class="card card-primary text-center p-2">
@@ -44,7 +44,7 @@ let printRepos = (repo) => {
                     alt="Card image cap">
                 <div class="card-block">
                     <h4 class="card-title">${repo[key].title}</h4>
-                    <p class="card-text">${repo[key].tech}</p>
+                    <p class="card-text">${techString}</p>
                     <p class="card-text">${repo[key].description}</p>
                     <a href="${repo[key].repo}" target="_blank"
                         class="btn btn-primary">GitHub Repository</a> 
